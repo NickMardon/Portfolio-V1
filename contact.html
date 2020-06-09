@@ -6,6 +6,8 @@
     <title>NMDigital</title>
     <!--Google Fonts-->
     <link href="https://fonts.googleapis.com/css2?family=Teko:wght@600&display=swap" rel="stylesheet">
+    <!--font awesome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!--Bootstrap CSS-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <!--Custom CSS-->
@@ -21,15 +23,47 @@
         </button>
         <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
           <div class="navbar-nav">
-            <a class="NMD-nav nav-item nav-link" href="#">About<span class="sr-only">(current)</span></a>
+            <a class="NMD-nav nav-item nav-link" href="index.html">About<span class="sr-only">(current)</span></a>
             <a class="NMD-nav nav-item nav-link" href="portfolio.html">Portfolio</a>
             <a class="NMD-nav nav-item nav-link active" href="contact.html">Contact</a>
           </div>
         </div>
       </nav>
 </header>
-
-
+<!--Contact Form-->
+<main class="container">
+    <!--Main Row-->
+    <div class="row">
+        <!--Form-->
+        <div class="col-md-9">
+            <h2 class="contactHeader">Contact Me</h2>
+            <form>
+                <div class="form-group">
+                    <label for="exampleFormControlInput1">Name</label>
+                    <input type="name" class="form-control" id="exampleFormControlInput2" placeholder="FirstName LastName">
+                  </div>
+                <div class="form-group">
+                  <label for="exampleFormControlInput1">Email address</label>
+                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                </div>
+                <div class="form-group">
+                  <label for="exampleFormControlTextarea1">Message</label>
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"></textarea>
+                </div>
+                <input class="btn btn-primary" type="submit" value="Submit">
+              </form>
+        </div>
+        <!--Icons-->
+        <div class="col-md-3">
+            <h2 class="contactHeader">Follow Me</h2>
+            <div class="icon-bar">
+                <a href="https://github.com/NickMardon" class="github"><i class="fa fa-github"></i></a>
+                <a href="www.linkedin.com/in/nickmardon" class="linkedin"><i class="fa fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/nickmardondigital/" class="instagram"><i class="fa fa-instagram"></i></a>
+              </div>
+        </div>
+    </div>
+</main>
 <!--Footer-->
 <footer>
     <div class="footerContainer">

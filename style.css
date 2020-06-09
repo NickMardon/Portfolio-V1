@@ -59,8 +59,29 @@ body {
 
 .portfolio {
    padding: 20px 0;
+   margin-bottom: 25px;
 }
 
 .row {
     margin: 25px 0;
+}
+
+/* contact page css */
+
+.contactContainer {
+    padding-top: 20px;
+}
+
+.contactHeader {
+    font-family: 'Teko', sans-serif;
+    margin-bottom: 20px;
+}
+
+.icon-bar {
+    display: flex;
+    flex-direction: column;
+}
+
+.instagram, .github, .linkedin {
+    font-size: 50px;
 }
