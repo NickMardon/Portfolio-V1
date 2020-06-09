@@ -1,0 +1,66 @@
+body {
+    background-color: #F6F6F6;
+}
+/* header css  */
+#NMDBrand {
+    margin-left: 15px;
+    font-family: 'Teko', sans-serif;
+    font-size: 24px;
+}
+
+.NMD-nav {
+    font-family: 'Teko', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    margin-right: 15px;
+}
+
+
+
+/*Footer Style*/
+.footerContainer {
+    display: flex;
+    background-color:#343a40;
+    padding: 12px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+#footerText {
+    font-family: Helvetica, sans-serif;
+    font-size: 14px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    color: whitesmoke;
+}
+
+/* about me css  */
+
+#aboutBox {
+    margin: 20px 15px;
+    background-color: #A5B3CA;
+}
+
+#aboutHeader {
+    padding-top: 10px;
+}
+
+.skillDescription {
+    padding-top: 8px;
+}
+
+/* portfolio css */
+
+#portfolioHeader {
+    font-family: 'Teko', sans-serif;
+    font-size: 46px;
+}
+
+.portfolio {
+   padding: 50px 0;
+}
+
+.row {
+    margin: 25px 0;
+}
