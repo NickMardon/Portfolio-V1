@@ -22,10 +22,15 @@ body {
     }
 }
 /*Footer Style*/
+/* .footerBox{
+    position: relative;
+    min-height: 70vh;
+} */
+
 .footerContainer {
     display: flex;
     background-color:#343a40;
-    padding: 12px;
+    padding: 6px;
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -42,7 +47,7 @@ body {
 /* about me css  */
 .jumbotron {
     height: 100vh;
-    background-image: url("https://images.unsplash.com/photo-1585076641399-5c06d1b3365f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80");
+    background-image: url("IMGs/webDevBackground.jpeg");
     background-position-y: center;
     color: whitesmoke;
     text-shadow: 2px 2px 4px #000000;
@@ -66,7 +71,7 @@ img {
 }
 
 /*About Me Responsiveness*/
-@media screen and (max-width: 765px){
+@media screen and (max-width: 990px){
     .jumbotron {
         background-position-x: center;
         font-weight: 800;
@@ -75,8 +80,6 @@ img {
 
     
 }
-
-
 /* portfolio css */
 
 #portfolioHeader {
@@ -97,6 +100,7 @@ img {
 
 .contactContainer {
     padding-top: 20px;
+    min-height: 100vh;
 }
 
 .contactHeader, .iconHeader {
