@@ -43,13 +43,17 @@ body {
 
 /* about me css  */
 
+img {
+    margin-bottom: 12px;
+}
+
 #aboutBox {
-    /* margin: 20px 15px; */
+    margin-bottom: 70px;
     background-color: #EEEEEE;
 }
 
 #aboutHeader {
-    padding-top: 10px;
+    margin-top: 40px;
 }
 
 .skillDescription {
