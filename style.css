@@ -21,8 +21,6 @@ body {
         margin-left: 0;
     }
 }
-
-
 /*Footer Style*/
 .footerContainer {
     display: flex;
@@ -42,6 +40,13 @@ body {
 }
 
 /* about me css  */
+.jumbotron {
+    height: 100vh;
+    background-image: url("https://images.unsplash.com/photo-1585076641399-5c06d1b3365f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80");
+    background-position-y: center;
+    color: whitesmoke;
+    text-shadow: 2px 2px 4px #000000;
+}
 
 img {
     margin-bottom: 12px;
@@ -60,49 +65,17 @@ img {
     padding-top: 8px;
 }
 
-/* about me v2 */
+/*About Me Responsiveness*/
+@media screen and (max-width: 765px){
+    .jumbotron {
+        background-position-x: center;
+        font-weight: 800;
+    }
 
-.jumbotron {
-    height: 100vh;
-    background-image: url("https://images.unsplash.com/photo-1585076641399-5c06d1b3365f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80");
-    background-position-y: center;
-    color: whitesmoke;
-    text-shadow: 2px 2px 4px #000000;
+
     
 }
 
-/* #aboutMe {
-    background-color: #41A4F5;
-    text-align: center;
-} */
-
-/* .aboutHeader {
-    margin-top: 0;
-    /* padding: 20px; */
-    /* background-color: #83888C; */
-}
-
-/* .aboutInfo {
-    padding-top: 20px;
-    font-family: 'Roboto', sans-serif;
-} */
-
-/* .aboutSocial {
-    margin-top: 20px;
-    
-} */ */
-/* 
-.indexIcon {
-    font-size: 20px;
-    margin-right: 6px;
-} */
-
-/* .socialLinks {
-    margin-bottom: 40px;
-    color: black;
-    font-size: 14px;
-    overflow-wrap: break-word;
-} */
 
 /* portfolio css */
 
@@ -116,8 +89,8 @@ img {
    margin-bottom: 25px;
 }
 
-.row {
-    margin: 25px 0;
+.project {
+    margin-bottom: 20px;
 }
 
 /* contact page css */
@@ -128,7 +101,7 @@ img {
 
 .contactHeader, .iconHeader {
     font-family: 'Teko', sans-serif;
-    margin-bottom: 20px;
+    margin: 20px 0;
 }
 
 .icon-bar {
