@@ -47,10 +47,6 @@ body {
     }
 }
 /*Footer Style*/
-/* .footerBox{
-    position: relative;
-    min-height: 70vh;
-} */
 
 .footerContainer {
     display: flex;
@@ -71,13 +67,6 @@ body {
 }
 
 /* about me css  */
-/* .jumbotron {
-    /* height: 100vh;
-    background-image: url("IMGs/webDevBackground.jpeg");
-    background-position-y: center; */
-    /* color: whitesmoke; */
-    /* text-shadow: 2px 2px 4px #000000; */
-/* }  */
 
 .carouselText {
     position: absolute;
