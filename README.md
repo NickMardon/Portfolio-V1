@@ -7,20 +7,18 @@ The purpose of this site is to showcase my front end development skills, host li
 
 ### Homepage/About Page
 
-<img width="1680" alt="Screen Shot 2020-06-12 at 8 33 54 PM" src="https://user-images.githubusercontent.com/64296192/84559017-43531880-acec-11ea-8bc2-bb2b3721fa83.png">
+<img width="1680" alt="Screen Shot 2020-06-30 at 11 04 13 PM" src="https://user-images.githubusercontent.com/64296192/86208934-5a846980-bb26-11ea-9151-2adf7c644661.png">
 
-##### Users can click the resume button to scroll down and reveal a placeholder resume made with HTML and CSS
+##### Users can click the resume button to open PDF of resume in new tab
 
-<img width="1680" alt="Screen Shot 2020-06-12 at 8 34 01 PM" src="https://user-images.githubusercontent.com/64296192/84559048-7bf2f200-acec-11ea-9425-99c3b9996fe0.png">
+<img width="819" alt="Screen Shot 2020-06-30 at 10 57 20 PM" src="https://user-images.githubusercontent.com/64296192/86209012-7ee04600-bb26-11ea-80eb-84261a42cd38.png">
 
 ### Portfolio Page
 This page contains four cards with images displaying projects as well as clickable links to the projects hosted on github pages.
 
-<img width="1680" alt="Screen Shot 2020-06-12 at 8 34 07 PM" src="https://user-images.githubusercontent.com/64296192/84559083-c5434180-acec-11ea-90f5-b11dd3ccb349.png">
+<img width="1680" alt="Screen Shot 2020-06-30 at 11 09 06 PM" src="https://user-images.githubusercontent.com/64296192/86209133-c070f100-bb26-11ea-9796-a2b091adb813.png">
 
 ### Contact Page
 this page includes links to github, linkedIn, instagram, as well as a contact form with text area.
 
-<img width="1680" alt="Screen Shot 2020-06-12 at 8 34 14 PM" src="https://user-images.githubusercontent.com/64296192/84559113-f02d9580-acec-11ea-9653-554e420f05e3.png">
-
-
+<img width="1680" alt="Screen Shot 2020-06-30 at 11 04 31 PM" src="https://user-images.githubusercontent.com/64296192/86209178-d5e61b00-bb26-11ea-88b7-557165f9310b.png">
