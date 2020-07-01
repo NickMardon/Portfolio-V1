@@ -17,7 +17,10 @@
 <!--Header and Nav-->
 <header>
     <nav class="navStyle navbar navbar-expand-lg navbar-dark bg-dark">
-        <a id="NMDBrand" class="navbar-brand" href="index.html">Nick Mardon Digital</a>
+        <div id="logoContainer">
+            <img id="laptop" src="assets/IMGs/laptop (1).svg" alt="Laptop" height="40px" width="40px">
+            <a id="NMDBrand" class="navbar-brand" href="index.html">Nick Mardon Digital</a>
+        </div>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -30,13 +33,34 @@
         </div>
       </nav>
 </header>
-<!--Jumbotron-->
+<!-- Jumbotron
 <div class="jumbotron">
   <h1 class="display-4">Hello, I am Nick Mardon</h1>
   <h3>Full Stack Web Developer</h3>
   <br>
   <p></p>
   <a class="btn btn-primary btn-lg" href="#resume" role="button">Resume</a>
+</div> -->
+<!--Image Carousel-->
+<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+          <img src="assets/IMGs/webDevBackground.jpeg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="assets/IMGs/pexels-photo-1936299.jpeg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="assets/IMGs/apple-laptop-macbook-pro-notebook.jpg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+  </div>
+<div class="carouselText">
+    <h1 class="display-4">Hello, I am Nick Mardon</h1>
+    <h3>Full Stack Web Developer</h3>
+    <br>
+    <p></p>
+    <a class="btn btn-primary btn-lg" href="#resume" role="button">Resume</a>
 </div>
 <!--Resume-->
 <main id="resume">
