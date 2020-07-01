@@ -3,7 +3,7 @@ body {
 }
 /* header css  */
 .navStyle {
-    background-color: #606066 !important;
+    background-color: #5F5F5F !important;
     display: flex;
     align-items: center;
 }
@@ -26,13 +26,13 @@ body {
 
 #NMDBrand {
     margin-left: 15px;
-    font-family: 'Teko', sans-serif;
+    font-family: 'Orbitron', sans-serif;
     font-size: 24px;
     /* color: #2E2E2E; */
 }
 
 .NMD-nav {
-    font-family: 'Teko', sans-serif;
+    font-family: 'Orbitron', sans-serif;
     text-shadow: 1px 1px 2px black;
     /* color: #2E2E2E !important; */
     font-weight: 400;
@@ -47,14 +47,10 @@ body {
     }
 }
 /*Footer Style*/
-/* .footerBox{
-    position: relative;
-    min-height: 70vh;
-} */
 
 .footerContainer {
     display: flex;
-    background-color:#606066;
+    background-color:#5F5F5F;
     padding: 6px;
     position: fixed;
     bottom: 0;
@@ -62,7 +58,7 @@ body {
     width: 100%;
 }
 #footerText {
-    font-family: Helvetica, sans-serif;
+    font-family: 'Titillium Web', sans-serif;
     font-size: 14px;
     margin: 0 auto;
     display: flex;
@@ -71,19 +67,13 @@ body {
 }
 
 /* about me css  */
-/* .jumbotron {
-    /* height: 100vh;
-    background-image: url("IMGs/webDevBackground.jpeg");
-    background-position-y: center; */
-    /* color: whitesmoke; */
-    /* text-shadow: 2px 2px 4px #000000; */
-/* }  */
 
 .carouselText {
     position: absolute;
     top: 20%;
     left: 15%;
     color: whitesmoke;
+    text-shadow: 1px 1px 2px black;
 }
 
 img {
@@ -115,8 +105,13 @@ img {
 }
 /* portfolio css */
 
+.portfolioBody {
+    background-image: url(./IMGs/pexels-photo-3137056.jpeg);
+}
+
 #portfolioHeader {
-    font-family: 'Teko', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 700;
     font-size: 46px;
 }
 
