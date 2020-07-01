@@ -72,11 +72,9 @@ body {
 
 .mySlides {
     height: 100%;
+    overflow-x: hidden;
 }
-/* .aboutPage {
-    height: 100%;
-    width: auto;
-} */
+
 
 .carouselText {
     position: absolute;
