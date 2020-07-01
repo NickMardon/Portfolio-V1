@@ -2,14 +2,39 @@ body {
     background-color: #F6F6F6;
 }
 /* header css  */
+.navStyle {
+    background-color: #606066 !important;
+    display: flex;
+    align-items: center;
+}
+
+#logoContainer {
+    margin-left: 5%;
+    display: flex;
+    align-items: center;
+    text-shadow: 1px 1px 2px black;
+}
+
+#laptop {
+  margin: 0;
+}
+
+.svgContainer {
+    display: flex;
+    align-items: center;
+}
+
 #NMDBrand {
     margin-left: 15px;
     font-family: 'Teko', sans-serif;
     font-size: 24px;
+    /* color: #2E2E2E; */
 }
 
 .NMD-nav {
     font-family: 'Teko', sans-serif;
+    text-shadow: 1px 1px 2px black;
+    /* color: #2E2E2E !important; */
     font-weight: 400;
     font-size: 22px;
     margin-right: 15px;
@@ -29,10 +54,11 @@ body {
 
 .footerContainer {
     display: flex;
-    background-color:#343a40;
+    background-color:#606066;
     padding: 6px;
     position: fixed;
     bottom: 0;
+    left: 0;
     width: 100%;
 }
 #footerText {
@@ -45,12 +71,19 @@ body {
 }
 
 /* about me css  */
-.jumbotron {
-    height: 100vh;
+/* .jumbotron {
+    /* height: 100vh;
     background-image: url("IMGs/webDevBackground.jpeg");
-    background-position-y: center;
+    background-position-y: center; */
+    /* color: whitesmoke; */
+    /* text-shadow: 2px 2px 4px #000000; */
+/* }  */
+
+.carouselText {
+    position: absolute;
+    top: 20%;
+    left: 15%;
     color: whitesmoke;
-    text-shadow: 2px 2px 4px #000000;
 }
 
 img {
@@ -98,8 +131,12 @@ img {
 
 /* contact page css */
 
+.contactForm {
+    margin-top: 5%;
+}
+
 .contactContainer {
-    padding-top: 20px;
+    padding: 20px 0;
     min-height: 100vh;
 }
 
