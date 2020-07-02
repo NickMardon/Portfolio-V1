@@ -1,7 +1,9 @@
 body {
     background-color: #F6F6F6;
+    width: 100%;
+    overflow-x: hidden;
     padding: 0;
-    margin-0;
+    margin: 0;
 }
 /* header css  */
 .navStyle {
@@ -72,26 +74,49 @@ body {
 
 .mySlides {
     height: 100%;
-    overflow-x: hidden;
+    width: 100vw;
+    overflow: hidden;
+}
+
+.carouselTextPosition {
+    margin-top: 25%;
 }
 
 
 .carouselText {
+    font-family: 'Titillium Web', sans-serif;
+    padding: 10px;
+    font-weight: 600;
     position: absolute;
     top: 20%;
-    left: 15%;
+    left: 10%;
     color: whitesmoke;
-    text-shadow: 1px 1px 2px black;
+    text-shadow: 1px 2px 2px black;
 } 
 
+.resumeBox {
+    margin: 20px 0;
+    display: none;
+}
 /*About Me Responsiveness*/
-@media screen and (max-width: 990px){
+@media screen and (max-width: 1220px){
+
+    .mySlides {
+        height: auto;
+        width: 100%;
+    }
+
     .carouselText {
         position: absolute;
-        top: 25%;
-        left: 15%;
+        top: 8%;
         color: whitesmoke;
         text-shadow: 1px 1px 2px black;
+    }
+
+    .resumeBox {
+        display: flex;
+        justify-content: center;
+
     }
     
 }

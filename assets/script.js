@@ -1,23 +1,26 @@
-// var images = [url("assets/IMGs/webDevBackground.jpeg"),url("assets/IMGs/pexels-photo-1936299.jpeg"),url("assets/IMGs/apple-laptop-macbook-pro-notebook.jpg")];
-// var jumbotron = document.querySelector(".jumbotron");
-
-// var carousel = setInterval((myTimer) => {
-//     for(let i=0;i<images.length;i++){
-//         jumbotron.style.backgroundImage = [i];
-//     }
-// }, 1000);
-
 var slideIndex = 0;
-carousel();
+showSlides();
 
-function carousel() {
+function showSlides() {
   var i;
-  var x = document.getElementsByClassName("mySlides");
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";
+  var slides = document.getElementsByClassName("mySlides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
   }
   slideIndex++;
-  if (slideIndex > x.length) {slideIndex = 1}
-  x[slideIndex-1].style.display = "block";
-  setTimeout(carousel, 4000); // Change image every 4 seconds
+  if (slideIndex > slides.length) {slideIndex = 1}
+  slides[slideIndex-1].style.display = "block";
+  setTimeout(showSlides, 3000); // Change image every 2 seconds
 }
+
+
+var navToggle = $("#navToggle");
+var carouselText =$(".carouselText");
+
+navToggle.on("click",function(){
+    if(carouselText.hasClass("carouselTextPosition")===true){
+        carouselText.removeClass("carouselTextPosition")
+    } else { 
+        carouselText.addClass("carouselTextPosition");
+    }
+});
